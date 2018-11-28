@@ -15,7 +15,7 @@ public class Exercicio1 {
 
 		List<Usuario> usuarios = Arrays.asList(usr1, usr2, usr3);
 
-		usuarios.forEach(s -> System.out.println(s.getNome()));
+		usuarios.forEach(s -> System.out.println(s.getNome())); 
 		
 		usuarios.forEach(s -> s.tornaModerador());
 
